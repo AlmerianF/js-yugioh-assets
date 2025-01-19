@@ -9,6 +9,8 @@
     <!-- framework -->
     <link rel="stylesheet" href="./src/styles/buttons.css">
     <link rel="stylesheet" href="./src/styles/containers_and_frames.css">
+    <!-- favicom -->
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
     <!-- main style -->
     <link rel="stylesheet" href="./src/styles/main.css">
 
@@ -17,6 +19,10 @@
 </head>
 
 <body>
+
+    <audio id="bgm" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3"/>
+    </audio>
 
     <div class="bg-video">
         <video class="video" autoplay loop muted>
@@ -32,8 +38,8 @@
                 <img id="card-image">
             </div>
             <div class="card_details frame">
-                <p id="card-name">a</p>
-                <p id="card-type">a</p>
+                <p id="card-name">Selecione</p>
+                <p id="card-type">uma carta</p>
             </div>
         </div>
         <div class="container__right">
